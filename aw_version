@@ -1,0 +1,14 @@
+mali-t720: r14p0-01rel0 um fbdev arm64 027
+
+Build parameters:
+profile=tx011-release-64, profile=tx011-release
+gpu=t72x
+hwver=r1p1
+kernel_modules=0
+winsys=fbdev
+ump=0
+toolchain_prefix_target=aarch64-linux-gnu-, toolchain_prefix_target=arm-linux-gnueabihf-
+
+MD5 information:
+2af53438ed63340e5e5136df9185fe27  lib/libmali.so
+22123a07deffc8af268a557054740f82  lib64/libmali.so
